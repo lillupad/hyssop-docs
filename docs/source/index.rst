@@ -1,17 +1,15 @@
-Welcome to Lumache's documentation!
+hyssop.js documentation
 ===================================
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
+**hyssop.js** (/hi'suhp/) is a JavaScript library/framework (idk :3) for turning multi-page websites into single-page zero-reload sites.
+It uses XMLHttpRequests to fetch the data of the page you're linking to 
 
 Check out the :doc:`usage` section for further information, including
 how to :ref:`installation` the project.
 
 .. note::
 
-   This project is under active development.
+   This project is under active development, and is not currently release-ready
 
 Contents
 --------

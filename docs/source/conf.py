@@ -2,12 +2,12 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'hyssop.js'
+copyright = '2022, lillupad'
+author = 'lillupad'
 
 release = '0.1'
-version = '0.1.0'
+version = '0.1.0-beta.1'
 
 # -- General configuration
 

@@ -3,32 +3,43 @@ Usage
 
 .. _installation:
 
-Installation
+Quick start
 ------------
 
-To use Lumache, first install it using pip:
+To use hyssop.js, first install it using npm:
 
 .. code-block:: console
 
-   (.venv) $ pip install lumache
+    $ npm install create-hyssop
+   
 
-Creating recipes
-----------------
+Then use ``create-hyssop`` with either
 
-To retrieve a list of random ingredients,
-you can use the ``lumache.get_random_ingredients()`` function:
+.. code-block:: console
 
-.. autofunction:: lumache.get_random_ingredients
+    $ npm create hyssop -y
 
-The ``kind`` parameter should be either ``"meat"``, ``"fish"``,
-or ``"veggies"``. Otherwise, :py:func:`lumache.get_random_ingredients`
-will raise an exception.
+or
 
-.. autoexception:: lumache.InvalidKindError
+.. code-block:: console
+    
+    $ npx create-hyssop -y
 
-For example:
+.. note::
 
->>> import lumache
->>> lumache.get_random_ingredients()
-['shells', 'gorgonzola', 'parsley']
+    both of these commands produce the same output
 
+after that, your current directory should look like this:
+:: 
+    project-directory
+    ├── index.html
+    ├── main.html
+    ├── hyssop.min.js
+
+finally, start a dev server with
+
+.. code-block:: console
+
+    $ python3 -m http.server
+
+and open the port in your browser.
